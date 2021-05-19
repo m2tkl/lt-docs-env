@@ -1,0 +1,22 @@
+site_name: My Docs
+
+theme:
+  name: material
+  palette:
+    primary: green
+  # language: ja
+  features:
+    - navigation.tabs
+    - navigation.section
+    - navigatin.top
+    - toc.integrate
+
+plugins:
+  - search:
+      lang: ja
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify_cased
+  - admonition:
