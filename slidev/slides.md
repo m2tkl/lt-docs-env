@@ -235,6 +235,14 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 # デモ
 
 ---
+layout: cover
+---
+
+<video controls="controls">
+  <source src="/assets/mkdocs.mov">
+</video>
+
+---
 
 <video controls="controls">
   <source src="/assets/demo.mov">
