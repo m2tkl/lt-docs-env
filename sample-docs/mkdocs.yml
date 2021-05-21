@@ -4,12 +4,11 @@ theme:
   name: material
   palette:
     primary: green
-  # language: ja
   features:
     - navigation.tabs
     - navigation.section
     - navigatin.top
-    - toc.integrate
+    # - toc.integrate
 
 plugins:
   - search:
@@ -19,4 +18,19 @@ markdown_extensions:
   - toc:
       permalink: true
       slugify: !!python/name:pymdownx.slugs.uslugify_cased
-  - admonition:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      # linenums: true
+      linenums_style: pymdownx-inline
+
+nav:
+  - Home: index.md
+  - MkDocs:
+    - ./mkdocs-point.md 
+    - ./codeblock.md
+    - ./drawio-with-vscode.md
+
+extra:
+  version:
+    provider: mike

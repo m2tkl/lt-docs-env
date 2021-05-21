@@ -1,15 +1,18 @@
 # Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+このページは [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) を使って構築しています。
 
-## Commands
+`pip install mkdocs-material` でインストールできます。  
+dockerでの実行環境も用意されています。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## コマンド一覧
 
-## Project layout
+* `mkdocs new [dir-name]` - 新しくプロジェクトを作成します。
+* `mkdocs serve` - mkdocs用のサーバーを立てます。
+* `mkdocs build` - ドキュメントサイトをビルドします。
+* `mkdocs -h` - ヘルプメッセージを表示します。
+
+## ディレクトリ構成
 
     mkdocs.yml    # The configuration file.
     docs/
